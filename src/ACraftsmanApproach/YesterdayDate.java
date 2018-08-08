@@ -111,7 +111,7 @@ public class YesterdayDate {
                 return true;
             } else return false;
         } else if (year % 4 == 0) {
-//            System.out.print("闰年");
+            System.out.print("闰年");
             return true;
         } else return false;
     }
