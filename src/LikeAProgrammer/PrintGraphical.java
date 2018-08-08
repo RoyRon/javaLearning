@@ -37,7 +37,7 @@ public class PrintGraphical {
         }
     }
 
-   public static void _2_3(){
+   private static void _2_3(){
         for (int row = 1; row <= 4; row++) {
             for (int i = 1; i <= 14; i++) {
                 if (i < 8) {
@@ -72,6 +72,7 @@ public class PrintGraphical {
 
     public static void main(String[] args) {
 //        _2_1();
-        _2_2();
+//        _2_2();
+        _2_3();
     }
 }
