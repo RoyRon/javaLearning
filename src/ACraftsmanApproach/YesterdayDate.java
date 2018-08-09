@@ -26,10 +26,11 @@ public class YesterdayDate {
                     yesterMonth = month;
                     yesterYear = year;
                 } else if (day == 1) {
-                    if (month==8){//一开始漏加了这个判断，导致输入1999-8-1 输出错误结果1999-7-30   写程序真的太容易出bug了，一开始就要考虑到特殊情况
+                    if (month == 8) {//一开始漏加了这个判断，导致输入1999-8-1 输出错误结果1999-7-30   写程序真的太容易出bug了，一开始就要考虑到特殊情况
                         yesterDay = 31;
-                    }else{
-                    yesterDay = 30;}
+                    } else {
+                        yesterDay = 30;
+                    }
                     yesterMonth = month - 1;
                     yesterYear = year;
                 } else System.out.print(year + "-" + month + "-" + day + "是无效日期");
@@ -111,7 +112,7 @@ public class YesterdayDate {
                 return true;
             } else return false;
         } else if (year % 4 == 0) {
-            System.out.print("闰年");
+//            System.out.print("闰年");
             return true;
         } else return false;
     }
