@@ -1,4 +1,4 @@
-package FullStackPlan;
+package FullStackPlan.IO.BIO;
 
 import java.io.File;
 
@@ -9,7 +9,7 @@ public class FileTest {
         System.out.println("file对象是文件吗:"+file.isFile());
         System.out.println("file对象是目录吗:"+file.isDirectory());
         System.out.println(file.getName());
-        System.out.println(file.getParent());
+        System.out.println(file.getParent()); //相对路径获取父目录失败，返回null
         System.out.println(file.getAbsoluteFile());
         System.out.println(file.getAbsoluteFile().getParent());
         File tmpFile = File.createTempFile("aaa", ".txt", file);
