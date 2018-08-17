@@ -1,5 +1,6 @@
 package FullStackPlan.IO.BIO;
 
+
 import java.io.*;
 
 public class InsertContent {
@@ -23,5 +24,5 @@ public class InsertContent {
     }
 
     public static void main(String[] args) throws IOException {
-        insertContent("out.txt", "//11", 4500);
+        insertContent("out.txt", "//11\r\n", 4500);
     }}
