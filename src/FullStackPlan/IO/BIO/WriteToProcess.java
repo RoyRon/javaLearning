@@ -10,5 +10,5 @@ try(PrintStream ps=new PrintStream(p.getOutputStream())){
     ps.println("普通字符串");
     ps.println(new WriteToProcess());
 }
-    }
+    }//
 }
