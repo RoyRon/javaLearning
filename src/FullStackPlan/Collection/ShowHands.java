@@ -73,13 +73,13 @@ public class ShowHands {
         value=tmp[1];
         return value;
     }
-    public int getShowHandsType(LinkedList<String> playerCards){
-        for (int i=0;i<playerCards.size();i++){
-            for (int j=i+1;j<playerCards.size();j++){
-//                if (getCardValue())
-            }
-
-    }}
+//    public int getShowHandsType(LinkedList<String> playerCards){
+//        for (int i=0;i<playerCards.size();i++){
+//            for (int j=i+1;j<playerCards.size();j++){
+////                if (getCardValue())
+//            }
+//
+//    }}
 
     public static void main(String[] args) {
         ShowHands showHands = new ShowHands();
