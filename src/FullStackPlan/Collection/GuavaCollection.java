@@ -22,9 +22,9 @@ public class GuavaCollection {
         Table table=TreeBasedTable.create();
         table.put("row1","column1","value1");
         table.put("row2","column1","value2");
-        System.out.println(table.column("colum1"));
+        System.out.println(table.column("column1"));
         System.out.println(table.row("row2"));
-        System.out.println("table通过行和列来取值"+table.get("row2","colum1"));
+        System.out.println("table通过行和列来取值"+table.get("row2","column1"));
 
 
     }
