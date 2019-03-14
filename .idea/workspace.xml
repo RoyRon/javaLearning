@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6cc08d-df45-4699-a7a8-a66172affa88" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaCoreLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaCoreLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaCoreLearning/ACraftsmanApproach/YesterdayDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaCoreLearning/ACraftsmanApproach/YesterdayDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FullStackPlan/Collection/GuavaCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FullStackPlan/Collection/GuavaCollection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +41,7 @@
       <file leaf-file-name="FileVisitorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FullStackPlan/IO/NIO2/FileVisitorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="210">
               <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,38 +55,41 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Count3Quit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Count3Quit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TencentClass/Count3Quit.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TencentClass/StringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TencentClass/FileTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TencentClass/CollectionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringNodeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FullStackPlan/IO/BIO/StringNodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriteToProcess.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FullStackPlan/IO/BIO/WriteToProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BufferTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FullStackPlan/IO/NIO/BufferTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,6 +139,9 @@
         <option value="$PROJECT_DIR$/src/FullStackPlan/Collection/SetListMap.java" />
         <option value="$PROJECT_DIR$/src/FullStackPlan/Collection/GuavaCollection.java" />
         <option value="$PROJECT_DIR$/src/TencentClass/Count3Quit.java" />
+        <option value="$PROJECT_DIR$/src/TencentClass/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/TencentClass/FileTest.java" />
+        <option value="$PROJECT_DIR$/src/TencentClass/CollectionTest.java" />
       </list>
     </option>
   </component>
@@ -156,9 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,6 +205,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,14 +227,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Count3Quit">
-    <configuration name="CharsetTransform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FullStackPlan.IO.NIO.CharsetTransform" />
+  <component name="RunManager" selected="Application.CollectionTest">
+    <configuration name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TencentClass.CollectionTest" />
       <module name="javaCoreLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FullStackPlan.IO.NIO.*" />
+          <option name="PATTERN" value="TencentClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,24 +261,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="GuavaCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FullStackPlan.Collection.GuavaCollection" />
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TencentClass.FileTest" />
       <module name="javaCoreLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FullStackPlan.Collection.*" />
+          <option name="PATTERN" value="TencentClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InsertContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FullStackPlan.IO.BIO.InsertContent" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TencentClass.StringTest" />
       <module name="javaCoreLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FullStackPlan.IO.BIO.*" />
+          <option name="PATTERN" value="TencentClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,19 +325,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.GuavaCollection" />
-      <item itemvalue="Application.InsertContent" />
-      <item itemvalue="Application.CharsetTransform" />
       <item itemvalue="Application.FileChannelTest" />
       <item itemvalue="Application.Count3Quit" />
+      <item itemvalue="Application.StringTest" />
+      <item itemvalue="Application.FileTest" />
+      <item itemvalue="Application.CollectionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionTest" />
+        <item itemvalue="Application.FileTest" />
+        <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.Count3Quit" />
         <item itemvalue="Application.FileChannelTest" />
-        <item itemvalue="Application.CharsetTransform" />
-        <item itemvalue="Application.InsertContent" />
-        <item itemvalue="Application.GuavaCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -357,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535508031517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加数组练习">
+      <created>1551145973916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551145973916</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="999" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -397,35 +406,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交FileVisitorTest文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交FileVisitorTest文件" />
+    <MESSAGE value="增加数组练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加数组练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TencentClass/StringTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TencentClass/FileTest.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TencentClass/CollectionTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45465">
-          <caret line="3121" column="23" selection-start-line="3121" selection-start-column="23" selection-end-line="3121" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/nio/Buffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9495">
@@ -571,9 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,7 +765,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FullStackPlan/IO/NIO2/FileVisitorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="210">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -772,8 +778,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TencentClass/Count3Quit.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TencentClass/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TencentClass/FileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TencentClass/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
