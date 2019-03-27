@@ -5,21 +5,21 @@ package TencentClass;
  * Create on 2019/03/26
  */
 public class ThreadTest implements Runnable {
-    static int i;
+    static int i=0;
     public static void main(String[] args) {
         ThreadTest t = new ThreadTest();
         Thread thread1 = new Thread(t);
-        Thread thread2 = new Thread(t);
+//        Thread thread2 = new Thread(t);
         thread1.start();
-        thread2.start();
+//        thread2.start();
         t.m2();
     }
 
 
 
     public synchronized void m1() throws InterruptedException {
-        i = +100;
-        Thread.sleep(2000);
+        i = 100;
+        Thread.sleep(1);
         System.out.println("m1:" + i);
     }
 
