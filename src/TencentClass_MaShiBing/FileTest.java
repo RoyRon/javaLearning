@@ -1,4 +1,4 @@
-package TencentClass;
+package TencentClass_MaShiBing;
 
 import java.io.File;
 

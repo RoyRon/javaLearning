@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6cc08d-df45-4699-a7a8-a66172affa88" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/TencentClass/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TencentClass/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TencentClass/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TencentClass_MaShiBing/CollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TencentClass/Count3Quit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TencentClass_MaShiBing/Count3Quit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TencentClass/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TencentClass_MaShiBing/FileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TencentClass/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TencentClass_MaShiBing/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TencentClass/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TencentClass_MaShiBing/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TencentClass/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TencentClass_MaShiBing/ThreadTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +23,7 @@
       <file leaf-file-name="FileVisitorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FullStackPlan/IO/NIO2/FileVisitorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="240">
               <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -32,7 +38,7 @@
         </entry>
       </file>
       <file leaf-file-name="Count3Quit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TencentClass/Count3Quit.java">
+        <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/Count3Quit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
@@ -41,7 +47,7 @@
         </entry>
       </file>
       <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TencentClass/StringTest.java">
+        <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
@@ -50,7 +56,7 @@
         </entry>
       </file>
       <file leaf-file-name="FileTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TencentClass/FileTest.java">
+        <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/FileTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
@@ -59,7 +65,7 @@
         </entry>
       </file>
       <file leaf-file-name="CollectionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TencentClass/CollectionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/CollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
@@ -71,19 +77,28 @@
         </entry>
       </file>
       <file leaf-file-name="StreamTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TencentClass/StreamTest.java">
+        <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/StreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
+            <state relative-caret-position="600">
               <caret line="40" column="116" selection-start-line="40" selection-start-column="116" selection-end-line="40" selection-end-column="116" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TencentClass/ThreadTest.java">
+      <file leaf-file-name="ThreadTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/ThreadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="420">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerAndConsumer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/ProducerAndConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -126,6 +141,8 @@
         <option value="$PROJECT_DIR$/a.txt" />
         <option value="$PROJECT_DIR$/src/TencentClass/StreamTest.java" />
         <option value="$PROJECT_DIR$/src/TencentClass/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/TencentClass_MaShiBing/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/TencentClass_MaShiBing/ProducerAndConsumer.java" />
       </list>
     </option>
   </component>
@@ -142,6 +159,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +199,7 @@
               <item name="javaLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaLearning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TencentClass" type="462c0819:PsiDirectoryNode" />
+              <item name="TencentClass_MaShiBing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -189,9 +209,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,58 +228,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadTest">
+  <component name="RunManager" selected="Application.ProducerAndConsumer">
     <configuration name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TencentClass.CollectionTest" />
+      <option name="MAIN_CLASS_NAME" value="TencentClass_MaShiBing.CollectionTest" />
       <module name="javaCoreLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TencentClass.*" />
+          <option name="PATTERN" value="TencentClass_MaShiBing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TencentClass.FileTest" />
+      <option name="MAIN_CLASS_NAME" value="TencentClass_MaShiBing.FileTest" />
       <module name="javaCoreLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TencentClass.*" />
+          <option name="PATTERN" value="TencentClass_MaShiBing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ProducerAndConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TencentClass_MaShiBing.ProducerAndConsumer" />
+      <module name="javaCoreLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TencentClass_MaShiBing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TencentClass.StreamTest" />
+      <option name="MAIN_CLASS_NAME" value="TencentClass_MaShiBing.StreamTest" />
       <module name="javaCoreLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TencentClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TencentClass.StringTest" />
-      <module name="javaCoreLearning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TencentClass.*" />
+          <option name="PATTERN" value="TencentClass_MaShiBing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TencentClass.ThreadTest" />
+      <option name="MAIN_CLASS_NAME" value="TencentClass_MaShiBing.ThreadTest" />
       <module name="javaCoreLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TencentClass.*" />
+          <option name="PATTERN" value="TencentClass_MaShiBing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,19 +326,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.StringTest" />
       <item itemvalue="Application.FileTest" />
       <item itemvalue="Application.CollectionTest" />
       <item itemvalue="Application.StreamTest" />
       <item itemvalue="Application.ThreadTest" />
+      <item itemvalue="Application.ProducerAndConsumer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerAndConsumer" />
         <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.CollectionTest" />
         <item itemvalue="Application.FileTest" />
-        <item itemvalue="Application.StringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +376,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32890365" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32864866" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -397,25 +414,25 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TencentClass/StringTest.java</url>
+          <url>file://$PROJECT_DIR$/src/TencentClass_MaShiBing/StringTest.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TencentClass/FileTest.java</url>
+          <url>file://$PROJECT_DIR$/src/TencentClass_MaShiBing/FileTest.java</url>
           <line>12</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TencentClass/CollectionTest.java</url>
+          <url>file://$PROJECT_DIR$/src/TencentClass_MaShiBing/CollectionTest.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TencentClass/ThreadTest.java</url>
+          <url>file://$PROJECT_DIR$/src/TencentClass_MaShiBing/ThreadTest.java</url>
           <line>12</line>
           <properties />
           <option name="timeStamp" value="7" />
@@ -425,23 +442,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FullStackPlan/IO/NIO/CharsetTransform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FullStackPlan/IO/NIO2/PathTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,9 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,9 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,15 +714,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FullStackPlan/IO/NIO2/FileVisitorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="240">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -735,28 +730,28 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TencentClass/Count3Quit.java">
+    <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/Count3Quit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TencentClass/StringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TencentClass/FileTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/FileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TencentClass/CollectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/CollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
@@ -773,9 +768,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TencentClass/StreamTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/StreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
+        <state relative-caret-position="600">
           <caret line="40" column="116" selection-start-line="40" selection-start-column="116" selection-end-line="40" selection-end-column="116" />
         </state>
       </provider>
@@ -787,10 +782,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TencentClass/ThreadTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="420">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TencentClass_MaShiBing/ProducerAndConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
         </state>
       </provider>
     </entry>
