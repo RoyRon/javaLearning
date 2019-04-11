@@ -14,24 +14,18 @@ public class SocketClientTest {
         {
             try {
                 socket = new Socket("127.0.0.1", 8889);
-                BufferedReader fromKeyb = new BufferedReader(new InputStreamReader(System.in));
-                BufferedReader fromServer = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                BufferedWriter toServer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-                String toServerString = fromKeyb.readLine();
+                 OutputStreamWriter outputStreamWriter=new OutputStreamWriter(socket.getOutputStream());
+                 InputStreamReader inputStreamReader=new InputStreamReader(System.in);
+                 BufferedReader bufferedReader=new BufferedReader(inputStreamReader);
+                 String c=new String();
+                 c= bufferedReader.readLine();
+                 while (!"bye".equals(c)){
+                     outputStreamWriter.write(c);
+                     outputStreamWriter.flush();
+                     c= bufferedReader.readLine();
 
-
-
-//                while (!"bye".equals(toServerString)){
-                    toServer.write(toServerString);
-                    toServer.flush();
-                    System.out.println("Client:" + toServerString);
-//                    System.out.println("Server:" + fromServer.readLine());
-//                    toServerString = fromKeyb.readLine();
-//                }
-//                fromKeyb.close();
-//                fromServer.close();
-//                toServer.close();
-//                socket.close();
+                 }
+socket.close();
 
             } catch (IOException e) {
                 e.printStackTrace();

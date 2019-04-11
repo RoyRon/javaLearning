@@ -12,35 +12,31 @@ public class SocketServerTest {
     public static void main(String[] args) {
         ServerSocket socketServer;
 
-        {
-            try {
-                socketServer = new ServerSocket(8889);
 
-                Socket socket = socketServer.accept();
-                System.out.println("客户端连接成功...");
-                BufferedReader serverFromKeyb = new BufferedReader(new InputStreamReader(System.in));
-                BufferedReader fromClient = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                BufferedWriter toClient = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-                while (true){
-                System.out.println("Client:" + fromClient.readLine());}
-//                String toClientString = serverFromKeyb.readLine();
+        try {
+            socketServer = new ServerSocket(8889);
+            Socket socket = socketServer.accept();
+            System.out.println("客户端连接成功...");
+            InputStreamReader inputStreamReader=new InputStreamReader(socket.getInputStream());
+            BufferedReader bufferedReader=new BufferedReader(inputStreamReader);
+            char[] c = new char[10];
+            inputStreamReader.read(c);
 
-//                while (!"bye".equals(toClientString)) {
+            String s=String.valueOf(c);
+            System.out.println(s);
+            while (!socket.isClosed()){
 
-//                    toClient.write(toClientString);
-//                    toClient.flush();
-//                    System.out.println("Server:" + toClientString);
-//                    System.out.println("Client:" + fromClient.readLine());
-//                    toClientString=serverFromKeyb.readLine();
-//                }
-//                serverFromKeyb.close();
-//                fromClient.close();
-//                toClient.close();
-//                serverFromKeyb.close();
-//                socket.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+                inputStreamReader.read(c);
+                s=String.valueOf(c);
+                System.out.println(s);
             }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-    }
-}
+
+
+
+//
+
+
+}}
