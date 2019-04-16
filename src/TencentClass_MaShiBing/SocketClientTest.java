@@ -1,6 +1,9 @@
 package TencentClass_MaShiBing;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.net.Socket;
 
 /**
@@ -14,18 +17,27 @@ public class SocketClientTest {
         {
             try {
                 socket = new Socket("127.0.0.1", 8889);
-                 OutputStreamWriter outputStreamWriter=new OutputStreamWriter(socket.getOutputStream());
-                 InputStreamReader inputStreamReader=new InputStreamReader(System.in);
-                 BufferedReader bufferedReader=new BufferedReader(inputStreamReader);
-                 String c=new String();
-                 c= bufferedReader.readLine();
-                 while (!"bye".equals(c)){
-                     outputStreamWriter.write(c);
-                     outputStreamWriter.flush();
-                     c= bufferedReader.readLine();
+                OutputStreamWriter outputStreamWriter = new OutputStreamWriter(socket.getOutputStream());
+                InputStreamReader inputStreamReader = new InputStreamReader(System.in);
+                BufferedReader fromKeyb = new BufferedReader(inputStreamReader);
+                InputStreamReader fromServer = new InputStreamReader(socket.getInputStream());
 
-                 }
-socket.close();
+                char[] c2 = new char[10];
+
+                String toServerString = fromKeyb.readLine();
+
+                while (!"bye".equals(toServerString)) {
+                    System.out.println("client:" + toServerString);
+                    outputStreamWriter.write(toServerString);
+                    outputStreamWriter.flush();
+                    fromServer.read(c2);
+
+                    String fromServerString = String.valueOf(c2);
+                    System.out.println("server:" + fromServerString);
+                    toServerString = fromKeyb.readLine();
+
+                }
+                socket.close();
 
             } catch (IOException e) {
                 e.printStackTrace();
