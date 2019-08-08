@@ -17,6 +17,7 @@ import java.net.URL;
 public class CralwNews {
     /**
      * 将爬取url的信息存到本地文件中
+     *
      * @param url
      */
     public static void saveHtml(String url) {
@@ -96,6 +97,7 @@ public class CralwNews {
 
     /**
      * 将获取的标题和正文链接存到本地文件
+     *
      * @param title
      * @param contentUrl
      * @throws IOException
@@ -126,5 +128,11 @@ public class CralwNews {
     public void testSaveInFile() throws IOException {
         saveInFile("1", "aaaa");
         saveInFile("2", "bbbb");
+    }
+
+    @Test
+    public void testWriteTitleAndContentURLIntoResultFile() {
+        saveHtml("http://news.sina.com.cn/hotnews/?q_kkhha");
+        getTileAndContentURL();
     }
 }
