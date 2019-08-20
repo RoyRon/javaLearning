@@ -14,7 +14,7 @@ import java.net.URL;
  * @author 江映锋
  * Create on 2019/05/14
  */
-public class CralwNews {
+public class CrawlNews {
     /**
      * 将爬取url的信息存到本地文件中
      *
