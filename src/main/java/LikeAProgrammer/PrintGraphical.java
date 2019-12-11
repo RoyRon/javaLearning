@@ -1,33 +1,14 @@
 package LikeAProgrammer;
 
+import org.junit.Test;
+
 public class PrintGraphical {
 
-    public static void _2_1() {
-        for (int row = 1; row <=4; row++) {
+    @Test
+    public void _2_1() {
+        for (int row = 1; row <= 4; row++) {
             for (int i = 1; i <= 8; i++) {
-                if (i<row||i>9-row) {
-                    System.out.print(" ");
-                    continue;
-                }
-                System.out.print("#");
-            }
-            System.out.print("\n");
-        }
-    }
-    public static void _2_2(){
-        for (int row = 1; row <=4; row++) {
-            for (int i = 1; i <= 8; i++) {
-                if (i<=4-row||i>4+row) {
-                    System.out.print(" ");
-                    continue;
-                }
-                System.out.print("#");
-            }
-            System.out.print("\n");
-        }
-        for (int row = 1; row <=4; row++) {
-            for (int i = 1; i <= 8; i++) {
-                if (i<row||i>9-row) {
+                if (i < row || i > 9 - row) {
                     System.out.print(" ");
                     continue;
                 }
@@ -37,7 +18,32 @@ public class PrintGraphical {
         }
     }
 
-   private static void _2_3(){
+    @Test
+    public void _2_2() {
+        for (int row = 1; row <= 4; row++) {
+            for (int i = 1; i <= 8; i++) {
+                if (i <= 4 - row || i > 4 + row) {
+                    System.out.print(" ");
+                    continue;
+                }
+                System.out.print("#");
+            }
+            System.out.print("\n");
+        }
+        for (int row = 1; row <= 4; row++) {
+            for (int i = 1; i <= 8; i++) {
+                if (i < row || i > 9 - row) {
+                    System.out.print(" ");
+                    continue;
+                }
+                System.out.print("#");
+            }
+            System.out.print("\n");
+        }
+    }
+
+    @Test
+    private void _2_3() {
         for (int row = 1; row <= 4; row++) {
             for (int i = 1; i <= 14; i++) {
                 if (i < 8) {
@@ -46,7 +52,7 @@ public class PrintGraphical {
                     else {
                         System.out.print("#");
                     }
-                }else{
+                } else {
                     if (i < 16 - 2 * row || i > 15 - row)
                         System.out.print(" ");
                     else {
@@ -67,12 +73,7 @@ public class PrintGraphical {
 //            System.out.print("\n");
 //        }
     }
-
-
-
-    public static void main(String[] args) {
-//        _2_1();
-//        _2_2();
-        _2_3();
-    }
 }
+
+
+
