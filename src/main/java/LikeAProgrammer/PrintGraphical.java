@@ -43,7 +43,7 @@ public class PrintGraphical {
     }
 
     @Test
-    private void _2_3() {
+    public void _2_3() {
         for (int row = 1; row <= 4; row++) {
             for (int i = 1; i <= 14; i++) {
                 if (i < 8) {
