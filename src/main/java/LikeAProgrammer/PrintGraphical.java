@@ -1,7 +1,10 @@
 package LikeAProgrammer;
 
+import org.junit.Test;
+
 public class PrintGraphical {
 
+    @Test
     public static void _2_1() {
         for (int row = 1; row <=4; row++) {
             for (int i = 1; i <= 8; i++) {
@@ -71,8 +74,8 @@ public class PrintGraphical {
 
 
     public static void main(String[] args) {
-//        _2_1();
+        _2_1();
 //        _2_2();
-        _2_3();
+//        _2_3();
     }
 }

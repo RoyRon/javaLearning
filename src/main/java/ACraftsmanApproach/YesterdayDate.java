@@ -9,7 +9,7 @@ public class YesterdayDate {
 //       System.out.print(yesterdayDate.isLeapYear(16));
         int year = 0, month = 0, day = 0, yesterYear = 0, yesterMonth = 0, yesterDay = 0;
         do {
-            System.out.print("请输入年月日：");
+            System.out.print("请输入年月日(1812年-2018年之间的年份，分别输入年月日后都要点击回车）：");
             Scanner input = new Scanner(System.in);
             year = input.nextInt();
             month = input.nextInt();
