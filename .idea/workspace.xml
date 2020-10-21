@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6cc08d-df45-4699-a7a8-a66172affa88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MustLearnJavaByThisWay/DrawStar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MustLearnJavaByThisWay/DrawTortoise.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/book/likeaprogrammer/Convert10To2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/book/likeaprogrammer/Convert2To10.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sort/Sort.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/LikeAProgrammer/PrintGraphical.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ACraftsmanApproach/Triangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/Collection/CollectionTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/Collection/GuavaCollection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/BIO/FileNameFilterTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/BIO/FileNameFilterTest$MyFilenameFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO/BufferTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO/CharsetTransform.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO2/FilesTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO2/PathTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/InternetProgram/MultiTreadDown.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/LiGangCrazyJava/TimingOfVariateInitialization.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/LiGangCrazyJava/TimingOfVariateInitializationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/TencentClass_MaShiBing/Cake.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/TencentClass_MaShiBing/Count3Quit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/TencentClass_MaShiBing/ProducerAndConsumer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/TencentClass_MaShiBing/SysnStack.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ACraftsmanApproach/YesterdayDate.class" afterPath="$PROJECT_DIR$/target/classes/ACraftsmanApproach/YesterdayDate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Crawler/CrawlNews.class" afterPath="$PROJECT_DIR$/target/classes/Crawler/CrawlNews.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Crawler/CrawlZhiHu.class" afterPath="$PROJECT_DIR$/target/classes/Crawler/CrawlZhiHu.class" />
@@ -25,7 +43,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/BIO/RedirectOut.class" afterPath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/BIO/RedirectOut.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/BIO/StringNodeTest.class" afterPath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/BIO/StringNodeTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/BIO/WriteToProcess.class" afterPath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/BIO/WriteToProcess.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO/CharsetTransform.class" afterPath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO/CharsetTransform.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO/FileChannelTest.class" afterPath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO/FileChannelTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO2/FileVisitorTest$1.class" afterPath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO2/FileVisitorTest$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO2/FileVisitorTest.class" afterPath="$PROJECT_DIR$/target/classes/FullStackPlan/IO/NIO2/FileVisitorTest.class" />
@@ -42,10 +59,54 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TencentClass_MaShiBing/StreamTest.class" afterPath="$PROJECT_DIR$/target/classes/TencentClass_MaShiBing/StreamTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TencentClass_MaShiBing/StringTest.class" afterPath="$PROJECT_DIR$/target/classes/TencentClass_MaShiBing/StringTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TencentClass_MaShiBing/ThreadTest.class" afterPath="$PROJECT_DIR$/target/classes/TencentClass_MaShiBing/ThreadTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaCoreLearning.iml" afterPath="$PROJECT_DIR$/javaCoreLearning.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ACraftsmanApproach/YesterdayDate.java" afterPath="$PROJECT_DIR$/src/main/java/ACraftsmanApproach/YesterdayDate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/LikeAProgrammer/PrintGraphical.java" afterPath="$PROJECT_DIR$/src/main/java/LikeAProgrammer/PrintGraphical.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/book/likeaprogrammer/PrintGraphical.java" afterPath="$PROJECT_DIR$/src/main/java/book/likeaprogrammer/PrintGraphical.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dsc/desc.html" afterPath="$PROJECT_DIR$/desc/desc.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ACraftsmanApproach/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/book/acraftsmanapproach/Triangle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ACraftsmanApproach/YesterdayDate.java" afterPath="$PROJECT_DIR$/src/main/java/book/acraftsmanapproach/YesterdayDate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Crawler/CrawlNews.java" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlNews.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Crawler/CrawlZhiHu.java" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlZhiHu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Crawler/JSoupTest.java" afterPath="$PROJECT_DIR$/src/main/java/crawler/JSoupTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/Collection/CollectionTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/Collection/CollectionTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/Collection/GuavaCollection.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/Collection/GuavaCollection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/Collection/ShowHands.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/Collection/ShowHands.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/FileInputStreamTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/FileInputStreamTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/FileNameFilterTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/FileNameFilterTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/FileOutputStreamTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/FileOutputStreamTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/FileReaderTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/FileReaderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/FileTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/FileTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/FileWriteTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/FileWriteTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/InsertContent.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/InsertContent.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/KeyinTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/KeyinTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/PrintStreamTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/PrintStreamTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/PushbackTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/PushbackTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/ReadFromProcess.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/ReadFromProcess.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/ReadStandard.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/ReadStandard.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/RedirectIn.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/RedirectIn.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/RedirectOut.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/RedirectOut.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/StringNodeTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/StringNodeTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/BIO/WriteToProcess.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/BIO/WriteToProcess.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/NIO/BufferTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/NIO/BufferTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/NIO/CharsetTransform.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/NIO/CharsetTransform.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/NIO/FileChannelTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/NIO/FileChannelTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/NIO2/FileVisitorTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/NIO2/FileVisitorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/NIO2/FilesTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/NIO2/FilesTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/IO/NIO2/PathTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/IO/NIO2/PathTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/InternetProgram/DownUtil.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/InternetProgram/DownUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/InternetProgram/GetPostTest.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/InternetProgram/GetPostTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/FullStackPlan/InternetProgram/MultiTreadDown.java" afterPath="$PROJECT_DIR$/src/main/java/fullstackplan/InternetProgram/MultiTreadDown.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LiGangCrazyJava/TimingOfVariateInitializationTest.java" afterPath="$PROJECT_DIR$/src/main/java/book/ligangcrazyjava/TimingOfVariateInitializationTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/TencentClass_MaShiBing/CollectionTest.java" afterPath="$PROJECT_DIR$/src/main/java/video/tencentclass/mashibingjava/CollectionTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/TencentClass_MaShiBing/Count3Quit.java" afterPath="$PROJECT_DIR$/src/main/java/video/tencentclass/mashibingjava/Count3Quit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/TencentClass_MaShiBing/FileTest.java" afterPath="$PROJECT_DIR$/src/main/java/video/tencentclass/mashibingjava/FileTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/TencentClass_MaShiBing/ProducerAndConsumer.java" afterPath="$PROJECT_DIR$/src/main/java/video/tencentclass/mashibingjava/ProducerAndConsumer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/TencentClass_MaShiBing/SocketClientTest.java" afterPath="$PROJECT_DIR$/src/main/java/video/tencentclass/mashibingjava/SocketClientTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/TencentClass_MaShiBing/SocketServerTest.java" afterPath="$PROJECT_DIR$/src/main/java/video/tencentclass/mashibingjava/SocketServerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/TencentClass_MaShiBing/StreamTest.java" afterPath="$PROJECT_DIR$/src/main/java/video/tencentclass/mashibingjava/StreamTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/TencentClass_MaShiBing/StringTest.java" afterPath="$PROJECT_DIR$/src/main/java/video/tencentclass/mashibingjava/StringTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/TencentClass_MaShiBing/ThreadTest.java" afterPath="$PROJECT_DIR$/src/main/java/video/tencentclass/mashibingjava/ThreadTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,16 +124,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintGraphical.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LikeAProgrammer/PrintGraphical.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -108,26 +159,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YesterdayDate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ACraftsmanApproach/YesterdayDate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ACraftsmanApproach/Triangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DrawTortoise.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MustLearnJavaByThisWay/DrawTortoise.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,21 +169,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawStar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DrawStar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MustLearnJavaByThisWay/DrawStar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="224">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -198,11 +229,11 @@
         <option value="$PROJECT_DIR$/src/TencentClass_MaShiBing/SocketServer.java" />
         <option value="$PROJECT_DIR$/src/TencentClass_MaShiBing/SocketClientTest.java" />
         <option value="$PROJECT_DIR$/src/TencentClass_MaShiBing/SocketServerTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/LikeAProgrammer/PrintGraphical.java" />
         <option value="$PROJECT_DIR$/src/main/java/ACraftsmanApproach/YesterdayDate.java" />
         <option value="$PROJECT_DIR$/src/main/java/MustLearnJavaByThisWay/DrawTortoise.java" />
         <option value="$PROJECT_DIR$/src/main/java/MustLearnJavaByThisWay/DrawStar.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -236,41 +267,6 @@
             <path>
               <item name="javaLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MustLearnJavaByThisWay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MustLearnJavaByThisWay" type="462c0819:PsiDirectoryNode" />
-              <item name="DrawStar.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="javaLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -548,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551145973916</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加画王八练习">
+      <created>1603157097275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603157097275</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -577,14 +580,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.50289017" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21893063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21893063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -633,7 +636,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交FileVisitorTest文件" />
     <MESSAGE value="增加数组练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加数组练习" />
+    <MESSAGE value="添加画王八练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加画王八练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -774,14 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FullStackPlan/Collection/CollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -849,7 +845,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MustLearnJavaByThisWay/DrawStar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
