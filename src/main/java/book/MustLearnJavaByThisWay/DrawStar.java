@@ -16,9 +16,9 @@ public class DrawStar {
         frame.setBackground(Color.black);
         MyPanel2 mypanel = new MyPanel2();
         frame.add(mypanel);
-        frame.show();
         Thread thread = new Thread(mypanel);
         thread.start();
+        frame.show();
         frame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
@@ -56,7 +56,6 @@ class MyPanel2 extends Panel implements Runnable {
     public void run() {
         while (true) {
             for (int i = 0; i < 300; i++) {
-                x++;
                 y++;
                 try {
                     Thread.sleep(10);
