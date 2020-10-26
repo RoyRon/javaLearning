@@ -5,8 +5,8 @@
 # IntelliJ project files
 .idea/
 *.iml
-out/
-gen/
+/out/
+/gen/
 target/ ##一开始为target/ 没有最前面的斜杠，导致忽略文件夹target下的文件没生效
 /target/
 /.idea/
