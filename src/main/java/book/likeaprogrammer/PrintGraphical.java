@@ -7,13 +7,8 @@ import org.junit.Test;
 public class PrintGraphical {
 
     @Test
-<<<<<<< HEAD:src/main/java/LikeAProgrammer/PrintGraphical.java
-    public static void _2_1() {
-        for (int row = 1; row <=4; row++) {
-=======
     public void _2_1() {
-        for (int row = 1; row <= 4; row++) {
->>>>>>> origin/master:src/main/java/book/likeaprogrammer/PrintGraphical.java
+        for (int row = 1; row <=4; row++) {
             for (int i = 1; i <= 8; i++) {
                 if (i < row || i > 9 - row) {
                     System.out.print(" ");
@@ -81,15 +76,3 @@ public class PrintGraphical {
 //        }
     }
 }
-
-
-
-<<<<<<< HEAD:src/main/java/LikeAProgrammer/PrintGraphical.java
-    public static void main(String[] args) {
-        _2_1();
-//        _2_2();
-//        _2_3();
-    }
-}
-=======
->>>>>>> origin/master:src/main/java/book/likeaprogrammer/PrintGraphical.java

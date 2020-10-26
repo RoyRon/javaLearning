@@ -1,6 +1,8 @@
-package MustLearnJavaByThisWay;
+package book.MustLearnJavaByThisWay;
 
 import java.awt.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 /**
  * @author 光影风
@@ -14,7 +16,12 @@ public class DrawTortoise {
         Mypanel p=new Mypanel();
         frame.add(p);
         frame.show();
-
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
     }
 }
 class Mypanel extends Panel{
