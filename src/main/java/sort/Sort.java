@@ -47,66 +47,12 @@ public class Sort {
         return ints;
     }
 
-    public static int[] shellSort(int[] ints) {
-        int len = ints.length;
-        for (int gap = (int) Math.floor(len / 2); gap > 0; gap = (int) Math.floor(gap / 2)) {
-            for (int i = gap; i < len; i++) {
-                int j = i;
-                int current = ints[i];
-                while (j - gap >= 0 && current < ints[j - gap]) {
-                    ints[j] = ints[j - gap];
-                    j = j - gap;
-                }
-                ints[j] = current;
-            }
-        }
-        return ints;
-    }
-
-    public static int[] merge(int[] ints, int left, int mid, int right) {
-        int leftStart=left;
-        int[] tmp = new int[right - left + 1];
-        int rightStart = mid + 1;
-        int i = 0;
-        while (leftStart <=mid&&rightStart<=right) {
-            if (ints[leftStart] < ints[rightStart]) {
-                tmp[i++] = ints[leftStart++];
-            } else {
-                tmp[i++] = ints[rightStart++];
-            }
-        }
-        while (leftStart <= mid) {
-            tmp[i++] = ints[leftStart++];
-        }
-        while (rightStart <= right) {
-            tmp[i++] = ints[rightStart++];
-        }
-        for (int j = 0; j < tmp.length; j++) {
-            ints[left+j] = tmp[j];
-        }
-        return ints;
-    }
-
-    public static int[] mergeSort(int[] ints, int left, int right) {
-        if (left < right) {
-            int mid = ((left + right) / 2);
-            mergeSort(ints, left, mid);
-            mergeSort(ints, mid + 1, right);
-            ints = merge(ints, left, mid, right);
-        }
-        return ints;
-    }
-
-
     public static void main(String[] args) {
-//        int[] testData = {9, 8, 7, 6, 5, 4, 3, 2, 2, 0, 1};
-        int[] testData = {9};
+        int[] testData = {9, 8, 7, 6, 5, 4, 3, 2, 2, 0, 1};
         int[] output = null;
 //        output = Sort.bubbleSort(testData);
 //        output = Sort.selectionSort(testData);
-//        output=Sort.insertSort(testData);
-//        output = Sort.shellSort(testData);
-        output=mergeSort(testData,0,testData.length-1);
+        output=Sort.insertSort(testData);
         for (int i = 0; i < output.length; i++) {
             System.out.print(output[i] + " ");
         }
