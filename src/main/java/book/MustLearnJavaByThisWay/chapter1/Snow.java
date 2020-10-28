@@ -10,7 +10,7 @@ import java.awt.event.WindowEvent;
  */
 public class Snow {
 
-    public static void main(String[] args) {
+    public static void main(String[] a) {//main方法参数 String args[] 换成String[] a 也能够执行
         Frame frame = new Frame();
         DrawSnow drawSnow = new DrawSnow();
         Thread thread = new Thread(drawSnow);
