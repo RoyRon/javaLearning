@@ -13,7 +13,7 @@ import java.awt.event.WindowEvent;
  * @date 2020/10/27 23:52
  */
 public class HitNumbersGame {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Frame frame = new Frame();
         HitLetterGamePanel panel = new HitLetterGamePanel();
         Thread thread = new Thread(panel);
