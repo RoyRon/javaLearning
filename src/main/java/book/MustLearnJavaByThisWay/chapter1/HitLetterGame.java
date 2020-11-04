@@ -5,7 +5,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.io.StringReader;
 
 /**
  * @author 光影风
@@ -18,7 +17,7 @@ public class HitLetterGame {
 
         Frame frame = new Frame();
         LetterPanel panel = new LetterPanel();
-        Thread thread=new Thread(panel);
+        Thread thread = new Thread(panel);
         frame.setSize(300, 400);
         frame.add(panel);
         thread.start();
@@ -34,42 +33,46 @@ public class HitLetterGame {
     }
 }
 
-class LetterPanel extends Panel implements Runnable,KeyListener{
-    char[] letters=new char[10];
-    int[] x=new int[10];
-    int[] y=new int[10];
-    int score=0;
-    LetterPanel(){
-        for (int i=0;i<10;i++){
-        letters[i]=(char) (Math.random() * 26 + 97);
-        x[i]=(int)(Math.random()*250);
-        y[i]=(int)(Math.random()*350);
-    }}
+class LetterPanel extends Panel implements Runnable, KeyListener {
+    char[] letters = new char[10];
+    int[] x = new int[10];
+    int[] y = new int[10];
+    int score = 0;
+    boolean mark = false;
+
+    LetterPanel() {
+        for (int i = 0; i < 10; i++) {
+            letters[i] = (char) (Math.random() * 26 + 97);
+            x[i] = (int) (Math.random() * 250);
+            y[i] = (int) (Math.random() * 350);
+        }
+    }
+
     public void paint(Graphics g) {
-        Font font=new Font("myFont",2,15);
+        Font font = new Font("myFont", 2, 15);
         g.setFont(font);
         for (int i = 0; i < 10; i++) {
             g.drawString(new Character(letters[i]).toString(), x[i], y[i]);
         }
         g.setColor(Color.RED);
-        g.drawString(String.valueOf(score),200,10);
+        g.drawString(String.valueOf(score), 200, 10);
     }
 
     @Override
     public void run() {
-        while (true){
+        while (true) {
             try {
                 Thread.sleep(50);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            for (int i=0;i<10;i++){
-                if (y[i]==350){
-                    y[i]=0;
-                    x[i]=(int)(Math.random()*250);
-                    letters[i]=(char) (Math.random() * 26 + 97);
-                    score-=10;
-                    System.out.println("Miss,score-10: "+score);
+            for (int i = 0; i < 10; i++) {
+                if (y[i] == 350) {
+                    y[i] = 0;
+                    x[i] = (int) (Math.random() * 250);
+                    letters[i] = (char) (Math.random() * 26 + 97);
+                    score -= 10;
+                    System.out.println("Miss,score-10: " + score);
 
                 }
                 y[i]++;
@@ -86,21 +89,25 @@ class LetterPanel extends Panel implements Runnable,KeyListener{
     @Override
     public void keyPressed(KeyEvent e) {
 //System.out.println(e.getKeyChar());
-for (int i=0;i<10;i++){
-    if (e.getKeyChar()==letters[i]){
-        y[i]=0;
-        x[i]=(int)(Math.random()*250);
-        letters[i]=(char) (Math.random() * 26 + 97);
-        score+=5;
-        System.out.println("Hit,score+5: "+score);
-        repaint();
-        break;
-    }else {
-        score-=20;
-        System.out.println("Wrong,score-20: "+score);
-
-    }
-}
+        for (int i = 0; i < 10; i++) {
+            if (e.getKeyChar() == letters[i]) {
+                y[i] = 0;
+                x[i] = (int) (Math.random() * 250);
+                letters[i] = (char) (Math.random() * 26 + 97);
+                mark = true;
+                repaint();
+                break;
+            } else {
+                mark = false;
+            }
+        }
+        if (mark) {
+            score += 5;
+            System.out.println("Hit,score+5: " + score);
+        } else {
+            score -= 20;
+            System.out.println("Wrong,score-20: " + score);
+        }
 
     }
 
