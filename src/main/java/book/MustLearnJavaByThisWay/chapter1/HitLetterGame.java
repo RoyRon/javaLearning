@@ -23,6 +23,8 @@ public class HitLetterGame {
         thread.start();
         frame.addKeyListener(panel);
         panel.addKeyListener(panel);
+//        char[] c={'a','b','c','a','a'};
+//        panel.findDownmostLetter(c);
         frame.show();
         frame.addWindowListener(new WindowAdapter() {
             @Override
@@ -39,6 +41,7 @@ class LetterPanel extends Panel implements Runnable, KeyListener {
     int[] y = new int[10];
     int score = 0;
     boolean mark = false;
+
 
     LetterPanel() {
         for (int i = 0; i < 10; i++) {
@@ -61,13 +64,10 @@ class LetterPanel extends Panel implements Runnable, KeyListener {
     @Override
     public void run() {
         while (true) {
-            try {
-                Thread.sleep(50);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+
             for (int i = 0; i < 10; i++) {
-                if (y[i] == 350) {
+                y[i]++;
+                if (y[i] > 350) {
                     y[i] = 0;
                     x[i] = (int) (Math.random() * 250);
                     letters[i] = (char) (Math.random() * 26 + 97);
@@ -75,9 +75,14 @@ class LetterPanel extends Panel implements Runnable, KeyListener {
                     System.out.println("Miss,score-10: " + score);
 
                 }
-                y[i]++;
-                repaint();
+
             }
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            repaint();
         }
     }
 
@@ -88,21 +93,25 @@ class LetterPanel extends Panel implements Runnable, KeyListener {
 
     @Override
     public void keyPressed(KeyEvent e) {
+        int nowIndex = -1; //局部变量，每点击一次键盘使用一次，不能定义在类，不然nowIndex一旦变成不是-1就永远不是-1了，导致输入字母与画布字母不匹配也会得分的bug
+        int maxY = -1;
 //System.out.println(e.getKeyChar());
         for (int i = 0; i < 10; i++) {
             if (e.getKeyChar() == letters[i]) {
-                y[i] = 0;
-                x[i] = (int) (Math.random() * 250);
-                letters[i] = (char) (Math.random() * 26 + 97);
-                mark = true;
-                repaint();
-                break;
-            } else {
-                mark = false;
+                System.out.println(e.getKeyChar());
+                if (y[i] > maxY) {
+                    maxY = y[i];
+                    nowIndex = i;
+                }
             }
         }
-        if (mark) {
+
+        if (nowIndex != -1) {
             score += 5;
+            y[nowIndex] = 0;
+            x[nowIndex] = (int) (Math.random() * 250);
+            letters[nowIndex] = (char) (Math.random() * 26 + 97);
+            //  repaint();
             System.out.println("Hit,score+5: " + score);
         } else {
             score -= 20;
@@ -113,6 +122,23 @@ class LetterPanel extends Panel implements Runnable, KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
+
+    }
+
+    public int findDownmostLetter(char[] letters) {
+        int nowIndex = -1;
+        int maxY = 0;
+        for (int i = 0; i < 5; i++) {
+            if ('a' == letters[i]) {
+                if (y[i] >= maxY) {
+                    maxY = y[i];
+                    nowIndex = i;
+                }
+            }
+
+        }
+        System.out.println("a最大的y坐标" + nowIndex);
+        return nowIndex;
 
     }
 }
