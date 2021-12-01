@@ -1,4 +1,4 @@
-package book.MustLearnJavaByThisWay;
+package book.MustLearnJavaByThisWay.chapter1;
 
 import java.awt.*;
 import java.awt.event.WindowAdapter;
