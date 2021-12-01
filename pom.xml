@@ -24,7 +24,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.1</version>
 <!--            原来是test,每次更新pom，会出现报错，改成compile-->
 <!--            <scope>test</scope>-->
             <scope>compile</scope>
